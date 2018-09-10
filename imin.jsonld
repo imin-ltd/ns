@@ -20,13 +20,13 @@
     "description": "The junior price derived from the appropriate Offer",
     "@type": "xsd:decimal"
   },
-  "imin:membershipRequired:": {
+  "imin:membershipRequired": {
     "id": "imin:membershipRequired",
     "label": "Membership Required",
     "description": "Indicates whether this offer is only available to members.",
     "@type": "xsd:boolean"
   },
-  "imin:fullAddress:": {
+  "imin:fullAddress": {
     "id": "imin:fullAddress",
     "label": "Full Address",
     "description": "Full address in one line",
