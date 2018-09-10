@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "oa": "https://openactive.io/",
+    "imin": "https://imin.co/",
+    "id": "@id"
+  },
+  "imin:publicAdultPrice": {
+    "id": "imin:publicAdultPrice",
+    "label": "Adult Price",
+    "description": "The adult price derived from the appropriate Offer",
+    "@type": "xsd:decimal"
+  },
+  "imin:publicJuniorPrice": {
+    "id": "imin:publicJuniorPrice",
+    "label": "Junior Price",
+    "description": "The junior price derived from the appropriate Offer",
+    "@type": "xsd:decimal"
+  },
+  "imin:membershipRequired:": {
+    "id": "imin:membershipRequired",
+    "label": "Membership Required",
+    "description": "Indicates whether this offer is only available to members.",
+    "@type": "xsd:boolean"
+  },
+  "imin:fullAddress:": {
+    "id": "imin:fullAddress",
+    "label": "Full Address",
+    "description": "Full address in one line",
+    "@type": "xsd:string"
+  },
+  "imin:specialRequirements": {
+    "id": "imin:specialRequirements",
+    "label": "Special Requirements",
+    "description": "List of related special requirements from a controlled vocabulary.",
+    "@type": "skos:Concept"
+  }
+}
