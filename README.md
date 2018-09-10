@@ -36,12 +36,12 @@ Recommended usage as follows:
 
 ## Extension Properties
 
-| Property                   | Type    | Description                                                        |
-|----------------------------|---------|--------------------------------------------------------------------|
-| `imin:publicAdultPrice`    | decimal | The adult price derived from the appropriate Offer                 |
-| `imin:publicJuniorPrice`   | decimal | The junior price derived from the appropriate Offer                |
-| `imin:membershipRequired`  | boolean | Indicates whether this Offer is only available to members.         |
-| `imin:fullAddress`         | string  | Full address in one line                                           |
-| `imin:specialRequirements` | Concept | List of related special requirements from a controlled vocabulary. |
+| Property                   | Type    | Description                                                                                 |
+|----------------------------|---------|---------------------------------------------------------------------------------------------|
+| `imin:publicAdultPrice`    | decimal | The adult price derived from the appropriate Offer                                          |
+| `imin:publicJuniorPrice`   | decimal | The junior price derived from the appropriate Offer                                         |
+| `imin:membershipRequired`  | boolean | Indicates whether this Offer is only available to members.                                  |
+| `imin:fullAddress`         | string  | Full address in one line. If any address information is available, it will be present here. |
+| `imin:specialRequirements` | Concept | List of related special requirements from a controlled vocabulary.                          |
 
 
