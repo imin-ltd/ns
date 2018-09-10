@@ -1,4 +1,4 @@
-# imin Extension Namespace
+# imin Extension Namespace Vocabulary Terms
 
 This repository holds the [JSON-LD definition](http://ns.imin.co/imin.jsonld) of the imin namespace. The terms in this namespace are defined for use within the [imin Search API](https://docs.imin.co).
 
