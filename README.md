@@ -1,8 +1,10 @@
-# imin Model Extension Namespace
+# imin Model Namespace
 
 This repository holds the JSON-LD definition of the imin namespace. The terms in this namespace are defined for use within the [imin Search API](https://docs.imin.co).
 
 imin works as part of the [OpenActive Community Group](https://www.w3.org/community/openactive) to promote the usecases represented by the properties within this namespace, with the intention of standardising them over time.
+
+This namespace can be referenced using the URL `"https://imin.co/"` (which will return JSON-LD if the Accept header contains `application/ld+json`).
 
 ## Extension Properties
 
