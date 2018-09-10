@@ -43,3 +43,5 @@ Recommended usage as follows:
 | `imin:membershipRequired`  | boolean | Indicates whether this Offer is only available to members.         |
 | `imin:fullAddress`         | string  | Full address in one line                                           |
 | `imin:specialRequirements` | Concept | List of related special requirements from a controlled vocabulary. |
+
+
