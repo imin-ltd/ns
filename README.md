@@ -6,7 +6,7 @@ imin works as part of the [OpenActive Community Group](https://www.w3.org/commun
 
 This namespace MUST be referenced using the URL `"https://imin.co/"` (which will return the [JSON-LD definition](http://ns.imin.co/imin.jsonld) if the `Accept` header contains `application/ld+json`), and is designed to be used in conjunction with the `"https://openactive.io/"` namespace.
 
-Please raise requests for content or issues related to the namespace via [GitHub](https://github.com/imin-ltd/ns/issues). 
+Please raise requests for content or issues related to the namespace via [GitHub](https://github.com/imin-ltd/extension-namespace/issues). 
 
 Recommended usage as follows:
 ```json
