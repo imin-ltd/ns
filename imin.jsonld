@@ -65,6 +65,45 @@
       "rangeIncludes": [
         "skos:Concept"
       ]
+    },
+    {
+      "id": "imin:availableChannel",
+      "type": "Property",
+      "label": "availableChannel",
+      "comment": "The channels through which a booking can be made.",
+      "domainIncludes": [
+        "schema:Offer"
+      ],
+      "rangeIncludes": [
+        "imin:AvailableChannelType"
+      ]
+    },
+    {
+      "id": "imin:AvailableChannelType",
+      "type": "Class",
+      "label": "AvailableChannelType",
+      "comment": "An enumeration of channels through which a booking can be made.",
+      "subClassOf": [
+        "schema:Enumeration"
+      ]
+    },
+    {
+      "id": "https://imin.co/TelephoneAdvanceBooking",
+      "type": "imin:AvailableChannelType",
+      "label": "TelephoneAdvanceBooking",
+      "comment": "Bookings can be made but not paid for in advance by telephone."
+    },
+    {
+      "id": "https://imin.co/TelephonePrepayment",
+      "type": "imin:AvailableChannelType",
+      "label": "TelephonePrepayment",
+      "comment": "Bookings can be made and paid for in advance by telephone."
+    },
+    {
+      "id": "https://imin.co/OnlinePrepayment",
+      "type": "imin:AvailableChannelType",
+      "label": "OnlinePrepayment",
+      "comment": "Bookings can be made and paid for online."
     }
   ]
 }
