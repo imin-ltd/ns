@@ -65,33 +65,6 @@
       "rangeIncludes": [
         "skos:Concept"
       ]
-    },
-    {
-      "id": "imin:LevelType",
-      "type": "Class",
-      "label": "LevelType",
-      "comment": "An enumeration of levels.",
-      "subClassOf": [
-        "schema:Enumeration"
-      ]
-    },
-    {
-      "id": "https://imin.co/Beginner",
-      "type": "imin:LevelType",
-      "label": "Beginner",
-      "comment": "The beginner level."
-    },
-    {
-      "id": "https://imin.co/Intermediate",
-      "type": "imin:LevelType",
-      "label": "Intermediate",
-      "comment": "The intermediate level."
-    },
-    {
-      "id": "https://imin.co/Advanced",
-      "type": "imin:LevelType",
-      "label": "Advanced",
-      "comment": "The advanced level."
     }
   ]
 }
