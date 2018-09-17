@@ -52,7 +52,10 @@ Recommended usage as follows:
 |----------------------------|----------|---------------------------------------------------------------------------------------------|
 | `imin:AvailableChannelType`           | `schema:Enumeration` | An enumeration of channels through which a booking can be made.              |
 
-| Enumeration Values         | Type     | Description                                                                                 |
+
+## Enumeration Values
+
+| Value         | Type     | Description                                                                                 |
 |----------------------------|----------|---------------------------------------------------------------------------------------------|
 | `https://imin.co/TelephoneAdvanceBooking` | `imin:AvailableChannelType`  | Bookings can be made but not paid for in advance by telephone.                                                                  |
 | `https://imin.co/TelephonePrepayment` | `imin:AvailableChannelType`  | Bookings can be made and paid for in advance by telephone.                                                                  |
