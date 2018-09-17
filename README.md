@@ -1,6 +1,6 @@
 # imin Extension Namespace Vocabulary Terms
 
-This repository holds the [JSON-LD definition](http://ns.imin.co/imin.jsonld) of the imin namespace. The terms in this namespace are defined for use within the [imin Search API](https://docs.imin.co).
+This repository holds the [JSON-LD definition](http://ns.imin.co/imin.jsonld) of the imin namespace. The terms in this namespace are defined for use within the [imin Search API](https://docs.imin.co), and are not designed to be used by data publishers. Data publishers should consider publishing thier own extension namespace or using the [OpenActive Beta Namespace](https://www.openactive.io/ns-beta/).
 
 imin works as part of the [OpenActive Community Group](https://www.w3.org/community/openactive) to promote the usecases represented by the properties within this namespace, with the intention of standardising them over time.
 
