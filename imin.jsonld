@@ -2,7 +2,7 @@
   "@context": [
     "https://openactive.io/extension",
     {
-      "imin": "https://imin.co/#"
+      "imin": "https://imin.co/"
     }
   ],
   "@graph": [
@@ -76,19 +76,19 @@
       ]
     },
     {
-      "id": "https://imin.co/#Beginner",
+      "id": "https://imin.co/Beginner",
       "type": "imin:LevelType",
       "label": "Beginner",
       "comment": "The beginner level."
     },
     {
-      "id": "https://imin.co/#Intermediate",
+      "id": "https://imin.co/Intermediate",
       "type": "imin:LevelType",
       "label": "Intermediate",
       "comment": "The intermediate level."
     },
     {
-      "id": "https://imin.co/#Advanced",
+      "id": "https://imin.co/Advanced",
       "type": "imin:LevelType",
       "label": "Advanced",
       "comment": "The advanced level."
