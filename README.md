@@ -42,7 +42,7 @@ Recommended usage as follows:
 |---------------------|-----------------|---------------------------------------------------------------------|
 | ([`schema:AggregateOffer`](https://schema.org/AggregateOffer)) <br/> `imin:publicAdultPrice` | [`schema:Float`](https://schema.org/Float) | Price for adult non-members derived from the appropriate Offer. |
 | ([`schema:AggregateOffer`](https://schema.org/AggregateOffer)) <br/> `imin:publicJuniorPrice` | [`schema:Float`](https://schema.org/Float) | Price for junior non-members derived from the appropriate Offer. |
-| ([`schema:Event`](https://schema.org/Event)) <br/> `imin:level` | [`imin:LevelType`](https://imin.co/LevelType) | The difficulty level of an Event. |
+| ([`schema:Event`](https://schema.org/Event)) <br/> `imin:level` | [`imin:LevelType`](https://imin.co/LevelType) | The difficulty level of an Event, in a structured format. |
 | ([`schema:Offer`](https://schema.org/Offer)) <br/> `imin:membershipRequired` | [`schema:Boolean`](https://schema.org/Boolean) | Indicates whether this offer is only available to members. |
 | ([`schema:PostalAddress`](https://schema.org/PostalAddress)) <br/> `imin:fullAddress` | [`schema:String`](https://schema.org/String) | Full address in one line. |
 
