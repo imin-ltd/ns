@@ -58,7 +58,7 @@
       "id": "imin:level",
       "type": "Property",
       "label": "level",
-      "comment": "The difficulty level of an Event.",
+      "comment": "The difficulty level of an Event, in a structured format.",
       "domainIncludes": [
         "schema:Event"
       ],
