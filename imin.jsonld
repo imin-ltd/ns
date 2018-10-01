@@ -55,55 +55,43 @@
       ]
     },
     {
-      "id": "imin:specialRequirements",
+      "id": "imin:level",
       "type": "Property",
-      "label": "specialRequirements",
-      "comment": "List of related special requirements from a controlled vocabulary.",
+      "label": "level",
+      "comment": "The difficulty level of an Event.",
       "domainIncludes": [
         "schema:Event"
       ],
       "rangeIncludes": [
-        "skos:Concept"
+        "imin:LevelType"
       ]
     },
     {
-      "id": "imin:availableChannel",
-      "type": "Property",
-      "label": "availableChannel",
-      "comment": "The channels through which a booking can be made.",
-      "domainIncludes": [
-        "schema:Offer"
-      ],
-      "rangeIncludes": [
-        "imin:AvailableChannelType"
-      ]
-    },
-    {
-      "id": "imin:AvailableChannelType",
+      "id": "imin:LevelType",
       "type": "Class",
-      "label": "AvailableChannelType",
-      "comment": "An enumeration of channels through which a booking can be made.",
+      "label": "LevelType",
+      "comment": "Structured difficulty levels with free-text labels to allow them to vary based on context.",
       "subClassOf": [
-        "schema:Enumeration"
+        "schema:StructuredValue"
       ]
     },
     {
-      "id": "https://imin.co/TelephoneAdvanceBooking",
-      "type": "imin:AvailableChannelType",
-      "label": "TelephoneAdvanceBooking",
-      "comment": "Bookings can be made but not paid for in advance by telephone."
+      "id": "https://imin.co/BeginnerLevel",
+      "type": "imin:LevelType",
+      "label": "BeginnerLevel",
+      "comment": "Beginner difficulty level"
     },
     {
-      "id": "https://imin.co/TelephonePrepayment",
-      "type": "imin:AvailableChannelType",
-      "label": "TelephonePrepayment",
-      "comment": "Bookings can be made and paid for in advance by telephone."
+      "id": "https://imin.co/IntermediateLevel",
+      "type": "imin:LevelType",
+      "label": "IntermediateLevel",
+      "comment": "Intermediate difficulty level"
     },
     {
-      "id": "https://imin.co/OnlinePrepayment",
-      "type": "imin:AvailableChannelType",
-      "label": "OnlinePrepayment",
-      "comment": "Bookings can be made and paid for online."
+      "id": "https://imin.co/AdvancedLevel",
+      "type": "imin:LevelType",
+      "label": "AdvancedLevel",
+      "comment": "Advanced difficulty level"
     }
   ]
 }
