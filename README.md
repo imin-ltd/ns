@@ -34,29 +34,32 @@ Recommended usage as follows:
 }
 ```
 
-## Extension Properties
+# Namespace
 
-| Property                   | Type    | Description                                                                                 |
-|----------------------------|---------|---------------------------------------------------------------------------------------------|
-| `imin:publicAdultPrice`    | `schema:Float` | The adult price derived from the appropriate Offer                                          |
-| `imin:publicJuniorPrice`   | `schema:Float` | The junior price derived from the appropriate Offer                                         |
-| `imin:membershipRequired`  | `schema:Boolean` | Indicates whether this Offer is only available to members.                                  |
-| `imin:fullAddress`         | `schema:String`  | Full address in one line. If any address information is available, it will be present here. |
-| `imin:specialRequirements` | `skos:Concept` | List of related special requirements from a controlled vocabulary.                          |
-| `imin:availableChannel` | `schema:Offer` | The channels through which a booking can be made.                          |
+## Properties
+
+| (Class) Property    |  Expected Type  | Description                                                         |
+|---------------------|-----------------|---------------------------------------------------------------------|
+| ([`schema:AggregateOffer`](https://schema.org/AggregateOffer)) <br/> `imin:publicAdultPrice` | [`schema:Float`](https://schema.org/Float) | Price for adult non-members derived from the appropriate Offer. |
+| ([`schema:AggregateOffer`](https://schema.org/AggregateOffer)) <br/> `imin:publicJuniorPrice` | [`schema:Float`](https://schema.org/Float) | Price for junior non-members derived from the appropriate Offer. |
+| ([`schema:Event`](https://schema.org/Event)) <br/> `imin:level` | [`imin:LevelType`](https://imin.co/LevelType) | The difficulty level of an Event. |
+| ([`schema:Offer`](https://schema.org/Offer)) <br/> `imin:membershipRequired` | [`schema:Boolean`](https://schema.org/Boolean) | Indicates whether this offer is only available to members. |
+| ([`schema:PostalAddress`](https://schema.org/PostalAddress)) <br/> `imin:fullAddress` | [`schema:String`](https://schema.org/String) | Full address in one line. |
 
 
-## Extension Classes
+
+## Classes
 
 | Class                      | subClass | Description                                                                                 |
 |----------------------------|----------|---------------------------------------------------------------------------------------------|
-| `imin:AvailableChannelType`           | `schema:Enumeration` | An enumeration of channels through which a booking can be made.              |
+| `imin:LevelType` | [`schema:StructuredValue`](https://schema.org/StructuredValue) | Structured difficulty levels with free-text labels to allow them to vary based on context. |
+
 
 
 ## Enumeration Values
 
-| Value         | Type     | Description                                                                                 |
-|----------------------------|----------|---------------------------------------------------------------------------------------------|
-| `https://imin.co/TelephoneAdvanceBooking` | `imin:AvailableChannelType`  | Bookings can be made but not paid for in advance by telephone.                                                                  |
-| `https://imin.co/TelephonePrepayment` | `imin:AvailableChannelType`  | Bookings can be made and paid for in advance by telephone.                                                                  |
-| `https://imin.co/OnlinePrepayment` | `imin:AvailableChannelType`  | Bookings can be made and paid for online.                                                                 |
+| Type          | Value    | Description                                                                    |
+|---------------|----------|--------------------------------------------------------------------------------|
+| [`imin:LevelType`](https://imin.co/LevelType) | `https://imin.co/AdvancedLevel` | Advanced difficulty level |
+| [`imin:LevelType`](https://imin.co/LevelType) | `https://imin.co/BeginnerLevel` | Beginner difficulty level |
+| [`imin:LevelType`](https://imin.co/LevelType) | `https://imin.co/IntermediateLevel` | Intermediate difficulty level |
