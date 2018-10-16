@@ -16,7 +16,8 @@
       ],
       "rangeIncludes": [
         "schema:Float"
-      ]
+      ],
+      "isArray": false
     },
     {
       "id": "imin:publicJuniorPrice",
@@ -28,7 +29,8 @@
       ],
       "rangeIncludes": [
         "schema:Float"
-      ]
+      ],
+      "isArray": false
     },
     {
       "id": "imin:membershipRequired",
@@ -40,7 +42,8 @@
       ],
       "rangeIncludes": [
         "schema:Boolean"
-      ]
+      ],
+      "isArray": false
     },
     {
       "id": "imin:fullAddress",
@@ -52,7 +55,8 @@
       ],
       "rangeIncludes": [
         "schema:String"
-      ]
+      ],
+      "isArray": false
     },
     {
       "id": "imin:level",
@@ -64,7 +68,8 @@
       ],
       "rangeIncludes": [
         "imin:LevelType"
-      ]
+      ],
+      "isArray": true
     },
     {
       "id": "imin:LevelType",
