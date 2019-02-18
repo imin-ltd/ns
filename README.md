@@ -45,6 +45,7 @@ Recommended usage as follows:
 | ([`schema:Event`](https://schema.org/Event)) <br/> `imin:level` | [`imin:LevelType`](https://imin.co/LevelType) | The difficulty level of an Event, in a structured format. |
 | ([`schema:Offer`](https://schema.org/Offer)) <br/> `imin:membershipRequired` | [`schema:Boolean`](https://schema.org/Boolean) | Indicates whether this offer is only available to members. |
 | ([`schema:PostalAddress`](https://schema.org/PostalAddress)) <br/> `imin:fullAddress` | [`schema:String`](https://schema.org/String) | Full address in one line. |
+| ([`schema:Event`](https://schema.org/Event)) <br/> `imin:tag` | [`schema:Text`](https://schema.org/Text) | imin curated tags that help categorise and describe an event|
 
 
 
