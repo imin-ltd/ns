@@ -102,7 +102,7 @@
       "id": "imin:aggregatedActivity",
       "type": "Property",
       "label": "aggregatedActivity",
-      "comment": "An array containing all the activities that are found at that place.",
+      "comment": "An array containing all the activities that are found at said place.",
       "domainIncludes": [
         "skos:Concept"
       ],
