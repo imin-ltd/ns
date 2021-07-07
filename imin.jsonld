@@ -102,27 +102,14 @@
       "id": "imin:aggregatedActivity",
       "type": "Property",
       "label": "aggregatedActivity",
-      "comment": "An array containing all the activities that are found at said place.",
+      "comment": "An array containing all the activities that are found at a place.",
       "domainIncludes": [
+        "schema:Place"
+      ],
+      "rangeIncludes": [
         "skos:Concept"
       ],
-      "rangeIncludes": [
-        "schema:String"
-      ],
       "isArray": true
-    },
-    {
-      "id": "beta:presentAsSlots",
-      "type": "Property",
-      "label": "presentAsSlots",
-      "comment": "A field which indicates whether or not this data is better consumed as slots data than sessions data.",
-      "domainIncludes": [
-        "schema:Boolean"
-      ],
-      "rangeIncludes": [
-        "schema:Boolean"
-      ],
-      "isArray": false
     }
   ]
 }
