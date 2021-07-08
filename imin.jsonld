@@ -16,8 +16,7 @@
       ],
       "rangeIncludes": [
         "schema:Float"
-      ],
-      "isArray": false
+      ]
     },
     {
       "id": "imin:publicJuniorPrice",
@@ -29,8 +28,7 @@
       ],
       "rangeIncludes": [
         "schema:Float"
-      ],
-      "isArray": false
+      ]
     },
     {
       "id": "imin:membershipRequired",
@@ -42,8 +40,7 @@
       ],
       "rangeIncludes": [
         "schema:Boolean"
-      ],
-      "isArray": false
+      ]
     },
     {
       "id": "imin:fullAddress",
@@ -55,8 +52,7 @@
       ],
       "rangeIncludes": [
         "schema:String"
-      ],
-      "isArray": false
+      ]
     },
     {
       "id": "imin:level",
@@ -69,7 +65,7 @@
       "rangeIncludes": [
         "imin:LevelType"
       ],
-      "isArray": true
+      "@container": "@list"
     },
     {
       "id": "imin:LevelType",
@@ -109,11 +105,11 @@
       "rangeIncludes": [
         "skos:Concept"
       ],
-      "isArray": true
+      "@container": "@list"
     },
     {
-      "@id": "imin:presentAsSlots",
-      "@type": "Property",
+      "id": "imin:presentAsSlots",
+      "type": "Property",
       "label": "presentAsSlots",
       "comment": "A field which indicates whether or not this data is better consumed as slots data than sessions data.",
       "domainIncludes": [
@@ -122,8 +118,7 @@
       ],
       "rangeIncludes": [
         "schema:Boolean"
-      ],
-      "isArray": false
+      ]
     }
   ]
 }
