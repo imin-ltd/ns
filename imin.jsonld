@@ -110,6 +110,20 @@
         "skos:Concept"
       ],
       "isArray": true
+    },
+    {
+      "@id": "imin:presentAsSlots",
+      "@type": "Property",
+      "label": "presentAsSlots",
+      "comment": "A field which indicates whether or not this data is better consumed as slots data than sessions data.",
+      "domainIncludes": [
+        "pending:EventSeries",
+        "schema:Event"
+      ],
+      "rangeIncludes": [
+        "schema:Boolean"
+      ],
+      "isArray": false
     }
   ]
 }
