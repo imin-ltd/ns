@@ -63,14 +63,14 @@
         "schema:Event"
       ],
       "rangeIncludes": [
-        "imin:Level@type"
+        "imin:LevelType"
       ],
       "@container": "@list"
     },
     {
-      "@id": "imin:Level@type",
+      "@id": "imin:LevelType",
       "@type": "Class",
-      "label": "Level@type",
+      "label": "LevelType",
       "comment": "Structured difficulty levels with free-text labels to allow them to vary based on context.",
       "subClassOf": [
         "schema:StructuredValue"
@@ -78,19 +78,19 @@
     },
     {
       "@id": "https://imin.co/BeginnerLevel",
-      "@type": "imin:Level@type",
+      "@type": "imin:LevelType",
       "label": "BeginnerLevel",
       "comment": "Beginner difficulty level"
     },
     {
       "@id": "https://imin.co/IntermediateLevel",
-      "@type": "imin:Level@type",
+      "@type": "imin:LevelType",
       "label": "IntermediateLevel",
       "comment": "Intermediate difficulty level"
     },
     {
       "@id": "https://imin.co/AdvancedLevel",
-      "@type": "imin:Level@type",
+      "@type": "imin:LevelType",
       "label": "AdvancedLevel",
       "comment": "Advanced difficulty level"
     },
