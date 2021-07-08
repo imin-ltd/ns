@@ -7,8 +7,8 @@
   ],
   "@graph": [
     {
-      "id": "imin:publicAdultPrice",
-      "type": "Property",
+      "@id": "imin:publicAdultPrice",
+      "@type": "Property",
       "label": "publicAdultPrice",
       "comment": "Price for adult non-members derived from the appropriate Offer.",
       "domainIncludes": [
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "id": "imin:publicJuniorPrice",
-      "type": "Property",
+      "@id": "imin:publicJuniorPrice",
+      "@type": "Property",
       "label": "publicJuniorPrice",
       "comment": "Price for junior non-members derived from the appropriate Offer.",
       "domainIncludes": [
@@ -31,8 +31,8 @@
       ]
     },
     {
-      "id": "imin:membershipRequired",
-      "type": "Property",
+      "@id": "imin:membershipRequired",
+      "@type": "Property",
       "label": "membershipRequired",
       "comment": "Indicates whether this offer is only available to members.",
       "domainIncludes": [
@@ -43,8 +43,8 @@
       ]
     },
     {
-      "id": "imin:fullAddress",
-      "type": "Property",
+      "@id": "imin:fullAddress",
+      "@type": "Property",
       "label": "fullAddress",
       "comment": "Full address in one line.",
       "domainIncludes": [
@@ -55,48 +55,48 @@
       ]
     },
     {
-      "id": "imin:level",
-      "type": "Property",
+      "@id": "imin:level",
+      "@type": "Property",
       "label": "level",
       "comment": "The difficulty level of an Event, in a structured format.",
       "domainIncludes": [
         "schema:Event"
       ],
       "rangeIncludes": [
-        "imin:LevelType"
+        "imin:Level@type"
       ],
       "@container": "@list"
     },
     {
-      "id": "imin:LevelType",
-      "type": "Class",
-      "label": "LevelType",
+      "@id": "imin:Level@type",
+      "@type": "Class",
+      "label": "Level@type",
       "comment": "Structured difficulty levels with free-text labels to allow them to vary based on context.",
       "subClassOf": [
         "schema:StructuredValue"
       ]
     },
     {
-      "id": "https://imin.co/BeginnerLevel",
-      "type": "imin:LevelType",
+      "@id": "https://imin.co/BeginnerLevel",
+      "@type": "imin:Level@type",
       "label": "BeginnerLevel",
       "comment": "Beginner difficulty level"
     },
     {
-      "id": "https://imin.co/IntermediateLevel",
-      "type": "imin:LevelType",
+      "@id": "https://imin.co/IntermediateLevel",
+      "@type": "imin:Level@type",
       "label": "IntermediateLevel",
       "comment": "Intermediate difficulty level"
     },
     {
-      "id": "https://imin.co/AdvancedLevel",
-      "type": "imin:LevelType",
+      "@id": "https://imin.co/AdvancedLevel",
+      "@type": "imin:Level@type",
       "label": "AdvancedLevel",
       "comment": "Advanced difficulty level"
     },
     {
-      "id": "imin:aggregatedActivity",
-      "type": "Property",
+      "@id": "imin:aggregatedActivity",
+      "@type": "Property",
       "label": "aggregatedActivity",
       "comment": "An array containing all the activities that are found at a place.",
       "domainIncludes": [
@@ -108,8 +108,8 @@
       "@container": "@list"
     },
     {
-      "id": "imin:presentAsSlots",
-      "type": "Property",
+      "@id": "imin:presentAsSlots",
+      "@type": "Property",
       "label": "presentAsSlots",
       "comment": "A field which indicates whether or not this data is better consumed as slots data than sessions data.",
       "domainIncludes": [
